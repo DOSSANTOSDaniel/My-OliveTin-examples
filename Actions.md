@@ -93,9 +93,24 @@ actions:
   execOnStartup: true
 ```
 
-## 
+## Récupère des informations sur les fichiers créés ou modifiés dans le dossier /home/daniel/Images/
 ```yaml
+actions:
+- title: Mames of modified files
+  shell: 'echo "$(date +"%Y-%m-%d_%H-%M-%S"), file: {{ filename }}, Dir: {{ filedir }}, size: {{ filesizebytes }}" >> /tmp/imagedir.log'
+  arguments:
+    - name: filename
+      type: 'regex:^[[:alnum:]_\-]([[:alnum:]_\-\s\.])+\.[[:alnum:]]+$'
 
+    - name: filedir
+      type: 'regex:^\/[[:alnum:]_\-\s\.]([[:alnum:]_\-\s\/\.])+$'
+
+    - name: filesizebytes
+      type: int
+  hidden: true
+  #execOnFileCreatedInDir
+  execOnFileChangedInDir:
+    - /home/daniel/Images/
 ```
 ## 
 ```yaml
