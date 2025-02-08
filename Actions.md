@@ -71,9 +71,13 @@ actions:
       - "@weekly"
 ```
 
-##
+## Envoyer une notification 
 ```yaml
-
+actions:
+  - title: Send notif
+    shell: echo "Test"
+    icon: ping
+    shellAfterCompleted: "ssh -Tnq daniel@192.168.1.48 \"notify-send 'OliveTin notify' --icon=computer --expire-time=1000 'Retour commande: {{ exitCode }}, {{ output }}'\""
 ```
 ## 
 ```yaml
