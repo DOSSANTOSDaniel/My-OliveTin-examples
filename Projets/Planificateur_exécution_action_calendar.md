@@ -1,9 +1,19 @@
 # Action permettant la planification de l'exécution d'actions
+## Contexte d'expérimentation
+OS : Ubuntu server 24.04
+Navigateur : Firefox 135
+OliveTin : 
+
 ## Préparation nécessaire
 ```bash
 mkdir /etc/OliveTin/plannings
 ```
-## Configuration config.yaml
+
+## Script shell
+```bash
+```
+
+## Configuration YAML (config.yaml)
 ```yaml
 actions:
   - title: Scheduling Server Startup
@@ -22,3 +32,13 @@ actions:
     icon: ping
     execOnCalendarFile: /etc/OliveTin/plannings/start-debiansrv-calendar.yaml
 ```
+
+## Exemple du fichier Entities
+```json
+```
+
+## Code CSS
+```css
+```
+
+## Autre informations
