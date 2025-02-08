@@ -59,9 +59,16 @@ actions:
             value: reboot
 ```
 
-## 
+## Sauvegarde une fois par semaine
 ```yaml
-
+actions:
+# Sauvegarde à chaque heure
+  - title: Backup home directory
+    shell: ssh -Tnq daniel@192.168.1.48 "tar --exclude='/home/daniel/.cache' -czf - /home/daniel" > /root/backup-$(date +\%Y-\%m-\%d_\%H-\%M-\%S).tar.gz
+    icon: backup
+    timeout: 30
+    execOnCron:
+      - "@weekly"
 ```
 
 ##
