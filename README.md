@@ -1,5 +1,5 @@
 # My-OliveTin-examples
-Un dépôt regroupant des exemples de configurations, scripts et actions pour OliveTin.
+**Un dépôt regroupant des exemples de configurations, scripts et actions pour OliveTin.**
 
 ## Présentation d'OliveTin
 **OliveTin** est un service web sécurisé et léger qui permet d’exécuter des scripts ou commandes shell via des boutons interactifs, des affichages et des fenêtres de saisie.
