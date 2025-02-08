@@ -1,8 +1,8 @@
 # Action permettant la planification de l'exécution d'actions
 ## Contexte d'expérimentation
-OS : Ubuntu server 24.04
-Navigateur : Firefox 135
-OliveTin : 
+* OS : Ubuntu server 24.04
+* Navigateur : Firefox 135
+* OliveTin : 
 
 ## Préparation nécessaire
 ```bash
