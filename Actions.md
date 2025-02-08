@@ -12,7 +12,7 @@ actions:
 ```yaml
 actions:
   - title: Infos disk
-    shell: lsblk -f /dev/{{ Device }}
+    shell: printf "\033c"; lsblk -f /dev/{{ Device }}
     icon: disk
     popupOnStart: execution-dialog-stdout-only
     arguments:
