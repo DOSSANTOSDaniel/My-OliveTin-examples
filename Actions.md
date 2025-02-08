@@ -3,7 +3,7 @@
 ```yaml
 actions:
   - title: "Liste des périphériques"
-    shell: lsblk
+    shell: printf "\033c"; lsblk
     icon: disk
     popupOnStart: execution-dialog-stdout-only
 ```
