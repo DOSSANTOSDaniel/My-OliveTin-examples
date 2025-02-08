@@ -41,7 +41,22 @@ actions:
 
 ## Power
 ```yaml
+actions:
+  - title: Power OFF/Restart
+    icon: ⚡
+    shell: systemctl "{{ poweroption }}"
+    arguments:
+      - type: confirmation
+        title: Confirmation ?
 
+      - name: poweroption
+        title: Power option
+        choices:
+          - title: OFF
+            value: poweroff
+
+          - title: Restart
+            value: reboot
 ```
 
 ## 
