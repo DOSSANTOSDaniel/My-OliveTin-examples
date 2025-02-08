@@ -112,9 +112,13 @@ actions:
   execOnFileChangedInDir:
     - /home/daniel/Images/
 ```
-## 
+## Planification de l'envoi d'un paquet wol via date calendar
 ```yaml
-
+actions:
+  - title: Start my debian server
+    shell: wakeonlan -i 192.168.1.255 bc:24:11:dc:2f:12
+    icon: ping
+    execOnCalendarFile: /etc/OliveTin/plannings/start-debiansrv-calendar.yaml
 ```
 
 ##
