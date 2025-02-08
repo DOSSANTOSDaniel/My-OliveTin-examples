@@ -79,7 +79,44 @@ actions:
     icon: ping
     shellAfterCompleted: "ssh -Tnq daniel@192.168.1.48 \"notify-send 'OliveTin notify' --icon=computer --expire-time=1000 'Retour commande: {{ exitCode }}, {{ output }}'\""
 ```
+## Création d'un fichier d'informations sur la charge CPU et mémoire au démarrage d'OliveTin
+```yaml
+actions:
+- title: Check processes
+  shell: |
+    LOG_FILE='/tmp/checkps.log'
+    echo "===== MEM === $(date "+%Y-%m-%d %H:%M:%S") =====" >> "$LOG_FILE"
+    ps aux --sort=-%mem | head -3 >> "$LOG_FILE"
+    echo "===== CPU === $(date "+%Y-%m-%d %H:%M:%S") =====" >> "$LOG_FILE"
+    ps aux --sort=-%cpu | head -3 >> "$LOG_FILE"
+  icon: robot
+  execOnStartup: true
+```
+
 ## 
+```yaml
+
+```
+## 
+```yaml
+
+```
+
+##
+```yaml
+
+```
+
+##
+```yaml
+
+```
+## 
+```yaml
+
+```
+
+##
 ```yaml
 
 ```
