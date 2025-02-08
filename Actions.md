@@ -3,9 +3,9 @@
 ```yaml
 actions:
   - title: "Liste des périphériques"
-	shell: lsblk
-	icon: disk
-	popupOnStart: execution-dialog-stdout-only
+    shell: lsblk
+    icon: disk
+    popupOnStart: execution-dialog-stdout-only
 ```
 ## Autre
 ```yaml
