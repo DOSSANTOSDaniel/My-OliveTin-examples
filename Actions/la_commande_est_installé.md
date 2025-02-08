@@ -2,7 +2,7 @@
 Code config.yaml :
 ```yaml
 actions:
-  - title: htop command exist ?
+  - title: Command exist ?
     shell: command -v htop
-    icon: 🦇
+    icon: 📦
 ```
