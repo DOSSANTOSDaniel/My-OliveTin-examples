@@ -47,7 +47,7 @@ actions:
     shell: systemctl "{{ poweroption }}"
     arguments:
   	  - type: confirmation
-    	  title: Confirmation ?
+        title: Confirmation ?
 
       - name: poweroption
         title: Power option
