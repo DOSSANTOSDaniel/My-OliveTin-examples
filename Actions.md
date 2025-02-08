@@ -23,9 +23,20 @@ actions:
         default: sda
 ```
 
-## 
+## Ping une machine avec sugestions
 ```yaml
-
+actions:
+  - title: Ping Test
+    icon: ping
+    shell: ping -c 1 {{ computer }}
+    arguments:
+      - name: computer
+        title: IP Address
+        description: Indique l'adresse IP.
+        type: ascii_sentence
+        suggestions:
+          - 192.168.1.85: Serveur Tortue
+          - 192.168.1.22: PC Windows
 ```
 
 ##
