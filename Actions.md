@@ -39,9 +39,21 @@ actions:
           - 192.168.1.22: PC Windows
 ```
 
-##
+## Power
 ```yaml
+actions:
+  - title: Power OFF/Restart
+    icon: ⚡
+    shell: systemctl "{{ poweroption }}"
+    arguments:
+      - name: poweroption
+        title: Power option
+        choices:
+          - title: OFF
+            value: poweroff
 
+          - title: Restart
+            value: reboot
 ```
 
 ## 
