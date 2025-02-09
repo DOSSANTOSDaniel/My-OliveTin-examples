@@ -17,7 +17,7 @@
 ```yaml
 AdditionalNavigationLinks:
   - title: 'Mon_Blog'
-	url: 'https://blogdanieldsj.wordpress.com/'
+    url: 'https://blogdanieldsj.wordpress.com/'
 
 actions:
   - title: Link Blog
