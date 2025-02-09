@@ -15,6 +15,10 @@
 
 ## Configuration YAML (config.yaml)
 ```yaml
+AdditionalNavigationLinks:
+  - title: 'Mon_Blog'
+	url: 'https://blogdanieldsj.wordpress.com/'
+
 actions:
   - title: Link Blog
     icon: ping
