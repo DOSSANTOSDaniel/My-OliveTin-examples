@@ -1,0 +1,17 @@
+extends: default
+
+rules:
+  # Indentation de 2 espaces
+  indentation:
+    spaces: 2
+    indent-sequences: consistent
+  
+  # Désactive la vérification de la longueur des lignes
+  line-length: disable
+
+  # Autorise les espaces en fin de ligne
+  trailing-spaces: disable
+
+  # Désactive l'obligation d'avoir "---" en début de fichier et `...` ou `---` en fin de fichier.
+  document-start: disable
+  document-end: disable
