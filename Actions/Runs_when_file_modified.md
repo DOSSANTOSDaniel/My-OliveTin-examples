@@ -1,0 +1,46 @@
+# Action permettant de vérifier quand un fichier est modifié ou créé
+## Contexte d'expérimentation
+* OS : Ubuntu server 24.04.1 LTS
+* Navigateur : Firefox 135.0 (64 bits)
+* OliveTin : 2024.12.11
+* Réseau : LAN
+  
+## Préparation nécessaire et dépendances
+```bash
+```
+
+## Script shell
+```bash
+```
+
+## Configuration YAML (config.yaml)
+```yaml
+actions:
+  - title: Modified files
+    shell: 'echo "$(date +"%Y-%m-%d_%H-%M-%S"), file: {{ filename }}, Dir: {{ filedir }}, size: {{ filesizebytes }}" >> /tmp/imagedir.log'
+    arguments:
+      - name: filename
+        type: 'regex:^[[:alnum:]_\-]([[:alnum:]_\-\s\.])+\.[[:alnum:]]+$'
+
+      - name: filedir
+        type: 'regex:^\/[[:alnum:]_\-\s\.]([[:alnum:]_\-\s\/\.])+$'
+
+      - name: filesizebytes
+        type: int
+    hidden: true
+	  #execOnFileCreatedInDir
+    execOnFileChangedInDir:
+      - /home/daniel/Images/
+```
+
+## Exemple du fichier Entities
+```json
+```
+```yaml
+```
+
+## Code CSS
+```css
+```
+
+## Autre informations
