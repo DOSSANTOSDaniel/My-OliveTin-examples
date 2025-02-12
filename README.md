@@ -14,6 +14,7 @@ La configuration se fait via un fichier **config.yaml**, et il est compatible av
 🐙 **GitHub** : [github.com/OliveTin/OliveTin](https://github.com/OliveTin/OliveTin)  
 💬 **Discord** : [discord.com/invite/jhYWWpNJ3v](https://discord.com/invite/jhYWWpNJ3v)  
 
-## Quelques captures d'écran 
+## Quelques captures d'écran
+![ssh_sessions](Screenshots/ssh.png)
 ![Containers](Screenshots/docker.png)
 ![Containers_cap](Screenshots/pcs.png)
