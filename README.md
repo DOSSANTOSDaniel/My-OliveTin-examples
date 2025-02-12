@@ -1,6 +1,6 @@
 # My-OliveTin-examples
 **Un dépôt regroupant des exemples de configurations, scripts et actions pour OliveTin.**
-
+![ssh](Screenshots/docker.png)
 ## Présentation d'OliveTin
 **OliveTin** est un service web sécurisé et léger qui permet d’exécuter des scripts ou commandes shell via des boutons interactifs, des affichages et des fenêtres de saisie.
 Il est open-source, écrit en **Go** et **JavaScript**, et consomme très peu de ressources.  
