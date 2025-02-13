@@ -5,6 +5,8 @@
 * OliveTin : 2024.12.11
 * Réseau : LAN
 
+![Capture](/Screenshots/docker_compose.png)
+
 ## Configuration YAML (config.yaml)
 ```yaml
 pageTitle: OliveTin
