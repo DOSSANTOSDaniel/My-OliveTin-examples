@@ -6,12 +6,12 @@
 * Réseau : LAN
   
 ## Préparation nécessaire et dépendances
+### Récupération de la base de données des fabricants
 ```bash
-/etc/OliveTin/scripts/MAC/manuf
-```
-
-## Script shell
-```bash
+mkdir -p /etc/OliveTin/scripts/MAC/
+cd /etc/OliveTin/scripts/MAC/
+wget https://www.wireshark.org/download/automated/data/manuf.gz
+gunzip manuf.gz
 ```
 
 ## Configuration YAML (config.yaml)
@@ -85,10 +85,3 @@ vim /etc/OliveTin/entities/workstations.yaml
   os: 'Windows'
   location: 'Bât. 1, 2ᵉ étg'
 ```
-
-## Code CSS
-```css
-```
-
-## Autre informations
-
