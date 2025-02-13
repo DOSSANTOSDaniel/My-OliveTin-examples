@@ -5,7 +5,7 @@
 * OliveTin : 2024.12.11
 * Réseau : LAN
   
-![Capture](/dockerstartstop.png)
+![Capture](Screenshots/dockerstartstop.png)
 
 ## Configuration YAML (config.yaml)
 ```yaml
