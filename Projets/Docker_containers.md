@@ -5,14 +5,7 @@
 * OliveTin : 2024.12.11
 * Réseau : LAN
   
-## Préparation nécessaire et dépendances
-```bash
-
-```
-
-## Script shell
-```bash
-```
+![Capture](/dockerstartstop.png)
 
 ## Configuration YAML (config.yaml)
 ```yaml
@@ -87,11 +80,3 @@ dashboards:
 {"Command":"\"caddy run --config …\"","CreatedAt":"2025-01-16 22:41:45 +0100 CET","ID":"7c803303b7f6","Image":"caddy:2-alpine","Labels":"org.opencontainers.image.source=https://github.com/caddyserver/caddy-docker,org.opencontainers.image.description=a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go,org.opencontainers.image.documentation=https://caddyserver.com/docs,com.docker.compose.project=searxng,com.docker.compose.project.config_files=/home/daniel/ServicesDocker/searxng/docker-compose.yaml,com.docker.compose.service=caddy,org.opencontainers.image.licenses=Apache-2.0,org.opencontainers.image.title=Caddy,org.opencontainers.image.vendor=Light Code Labs,com.docker.compose.config-hash=22fa33af8c063f21296dec74ce7045ca421813e71d09374c9e3cf243844bc26e,com.docker.compose.image=sha256:1b7d0a82297a0ab4d6f0a855f790d0208a975163c02e307c171de9674d23a4a0,org.opencontainers.image.version=v2.9.1,com.docker.compose.version=2.20.3,com.docker.compose.oneoff=False,com.docker.compose.project.working_dir=/home/daniel/ServicesDocker/searxng,org.opencontainers.image.url=https://caddyserver.com,com.docker.compose.container-number=1,com.docker.compose.depends_on=","LocalVolumes":"2","Mounts":"searxng_caddy-…,searxng_caddy-…,/home/daniel/S…","Names":"caddy-searxng","Networks":"host","Ports":"","RunningFor":"3 weeks ago","Size":"0B","State":"restarting","Status":"Restarting (1) 30 seconds ago"}
 {"Command":"\"/docker-entrypoint.…\"","CreatedAt":"2025-01-15 23:32:52 +0100 CET","ID":"0df3028a4eae","Image":"corentinth/it-tools:latest","Labels":"maintainer=NGINX Docker Maintainers \u003cdocker-maint@nginx.com\u003e,com.docker.compose.container-number=1,com.docker.compose.oneoff=False,com.docker.compose.project=it-tools,com.docker.compose.project.config_files=/home/daniel/ServicesDocker/it-tools/compose.yaml,com.docker.compose.version=2.20.3,com.docker.compose.config-hash=6868528e5f08624054ded095547d8fb05e5a161108f75ad599b8b4eb412c1fb0,com.docker.compose.depends_on=,com.docker.compose.image=sha256:bb7ba9626731f5919cea26f919bbc204fb031533cdf8742cde45d08e16ce2e0f,com.docker.compose.project.working_dir=/home/daniel/ServicesDocker/it-tools,com.docker.compose.service=it-tools","LocalVolumes":"0","Mounts":"","Names":"it-tools","Networks":"it-tools_default","Ports":"0.0.0.0:8383-\u003e80/tcp, [::]:8383-\u003e80/tcp","RunningFor":"3 weeks ago","Size":"0B","State":"running","Status":"Up 3 hours"}
 ```
-```yaml
-```
-
-## Code CSS
-```css
-```
-
-## Autre informations
