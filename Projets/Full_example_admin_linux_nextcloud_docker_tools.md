@@ -1,9 +1,10 @@
 # Interface de Gestion Serveur & Réseau
 ## Configuration, qui permet d'administrer un serveur Ubuntu, gérer des conteneurs Docker, surveiller Nextcloud, et exécuter divers outils réseau et système.
 ## Contexte d'expérimentation
-* OS : Ubuntu server 24.04
-* Navigateur : Firefox 135
-* OliveTin : 
+* OS : Ubuntu server 24.04.1 LTS
+* Navigateur : Firefox 135.0 (64 bits)
+* OliveTin : 2024.12.11
+* Réseau : LAN
 
 ## Configuration YAML (config.yaml)
 ```yaml
