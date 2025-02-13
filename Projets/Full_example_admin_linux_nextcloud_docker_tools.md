@@ -5,15 +5,6 @@
 * Navigateur : Firefox 135
 * OliveTin : 
 
-## Préparation nécessaire
-```bash
-
-```
-
-## Script shell
-```bash
-```
-
 ## Configuration YAML (config.yaml)
 ```yaml
 pageTitle: OliveTin
@@ -496,13 +487,3 @@ dashboards:
           - title: Command Help
           - title: Open File System Via SSH
 ```
-
-## Exemple du fichier Entities
-```json
-```
-
-## Code CSS
-```css
-```
-
-## Autre informations
