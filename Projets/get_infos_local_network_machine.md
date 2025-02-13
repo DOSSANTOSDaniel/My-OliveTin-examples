@@ -1,12 +1,18 @@
 # Action permettant la récupération des informations fabricant, l’analyse des ports ouverts avec Nmap, et la mise à jour automatique des entités réseau
 ## Contexte d'expérimentation
-* OS : Ubuntu server 24.04
-* Navigateur : Firefox 135
-* OliveTin : 
+* OS : Ubuntu server 24.04.1 LTS
+* Navigateur : Firefox 135.0 (64 bits)
+* OliveTin : 2024.12.11
+* Réseau : LAN
 
 ## Préparation nécessaire
 ```bash
-/etc/OliveTin/scripts/MAC/manuf
+### Récupération de la base de données des fabricants
+```bash
+mkdir -p /etc/OliveTin/scripts/MAC/
+cd /etc/OliveTin/scripts/MAC/
+wget https://www.wireshark.org/download/automated/data/manuf.gz
+gunzip manuf.gz
 ```
 
 ## Script shell
@@ -93,13 +99,3 @@ dashboards:
           - title: Infos fabricant {{ devices.ip_address }}
           - title: Ports TCP ouverts {{ devices.ip_address }}
 ```
-
-## Exemple du fichier Entities
-```json
-```
-
-## Code CSS
-```css
-```
-
-## Autre informations
