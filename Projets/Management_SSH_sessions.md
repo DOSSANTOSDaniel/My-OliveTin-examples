@@ -9,7 +9,6 @@
 ```bash
 /etc/OliveTin/scripts/kill_ssh_session.bash
 /etc/OliveTin/entities/ssh_sessions.json
-
 ```
 
 ## Script shell
@@ -127,9 +126,3 @@ dashboards:
 ```json
 {"ip":"192.168.1.22","pid":"1821 1963 2020 2049 2102 2149 2184 2240 ","nbps":"8","mac":"90:fb:****","name":"DESKTOP-LNDO03H.","manuf":"HonHaiPrecis Hon Hai Precision Ind. Co.,Ltd."}
 ```
-
-## Code CSS
-```css
-```
-
-## Autre informations
