@@ -1,13 +1,9 @@
 # Gestion des machines distantes
 ## Contexte d'expérimentation
-* OS : Ubuntu server 24.04
-* Navigateur : Firefox 135
-* OliveTin : 
-
-## Préparation nécessaire
-```bash
-
-```
+* OS : Ubuntu server 24.04.1 LTS
+* Navigateur : Firefox 135.0 (64 bits)
+* OliveTin : 2024.12.11
+* Réseau : LAN
 
 ## Script shell
 ```bash
@@ -164,13 +160,3 @@ dashboards:
           - title: Open ports {{ devices.ip_address }}
           - title: Traceroute {{ devices.ip_address }}
 ```
-
-## Exemple du fichier Entities
-```json
-```
-
-## Code CSS
-```css
-```
-
-## Autre informations
