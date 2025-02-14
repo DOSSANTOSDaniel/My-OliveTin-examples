@@ -52,7 +52,7 @@ echo "$nmap_output" | while IFS= read -r device; do
     "name_vendor": "'"$name_vendor"'"}]' -i "$yaml_file"
 done
 ```
-### Résultat
+### Exemple de résultat
 ```bash
 cat /etc/OliveTin/entities/scanpcs.yaml
 ```
