@@ -17,10 +17,6 @@ curl -w "\n" -sS --json '{"password": "daniel123"}' http://localhost:1337/api/Pa
 Your password hash is: $argon2id$v=19$m=65536,t=4,p=2$X8YLHsSnfgXGranxrBSQWQ$ZHEKjZ8GSZtUjJBNZZgTqpPoIG5Y1d91NC+SK1MPg2I
 ```
 
-## Script shell
-```bash
-```
-
 ## Configuration YAML (config.yaml)
 ```yaml
 logLevel: DEBUG
@@ -98,15 +94,3 @@ actions:
       - Anonymous
       - RegularUser
 ```
-
-## Exemple du fichier Entities
-```json
-```
-```yaml
-```
-
-## Code CSS
-```css
-```
-
-## Autre informations
