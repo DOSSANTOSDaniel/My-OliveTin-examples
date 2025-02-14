@@ -17,6 +17,8 @@ La configuration se fait via un fichier **config.yaml**, et il est compatible av
 💬 **Discord** : [discord.com/invite/jhYWWpNJ3v](https://discord.com/invite/jhYWWpNJ3v)  
 
 ## Quelques captures d'écran
+![color_docker](Screenshots/colordocker.gif)
+
 ![ssh_sessions](Screenshots/ssh.png)
 Image : https://wallhaven.cc/w/md38dy
 
