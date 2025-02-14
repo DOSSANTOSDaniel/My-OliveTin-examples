@@ -19,12 +19,14 @@ La configuration se fait via un fichier **config.yaml**, et il est compatible av
 ## Quelques captures d'écran
 ![ssh_sessions](Screenshots/ssh.png)
 Image : https://wallhaven.cc/w/md38dy
-
+---
 ![Containers](Screenshots/docker.png)
 Image : https://wallhaven.cc/w/3ld95v
-
+---
 ![Containers_cap](Screenshots/pcs.png)
-
+---
 ![cap_action1](Screenshots/Action1.png)
-
+---
 ![cap_action2](Screenshots/Action2.png)
+---
+![cap_action2](Screenshots/outputcmd.png)
