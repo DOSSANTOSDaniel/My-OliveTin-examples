@@ -8,10 +8,11 @@
 ## Préparation nécessaire et dépendances
 ### fichier Javascript
 Éditer le fichier index.html d’OliveTin :
+Insérer cette ligne :”<script src = "custom-webui/password.js"></script>” avant la balise de fin “</body>”.
 ```bash
 vim /var/www/olivetin/index.html
 ```
-Insérer cette ligne :”<script src = "custom-webui/password.js"></script>” avant la balise de fin “</body>”.
+
 Création du fichier /etc/OliveTin/custom-webui/password.js
 ```bash
 vim /etc/OliveTin/custom-webui/password.js
@@ -59,10 +60,6 @@ Restart
 systemctl restart OliveTin
 ```
 
-## Script shell
-```bash
-```
-
 ## Configuration YAML (config.yaml)
 ```yaml
 ShowNewVersions: false
@@ -74,15 +71,3 @@ actions:
     icon: ping
     timeout: 5
 ```
-
-## Exemple du fichier Entities
-```json
-```
-```yaml
-```
-
-## Code CSS
-```css
-```
-
-## Autre informations
