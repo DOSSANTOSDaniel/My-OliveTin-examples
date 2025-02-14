@@ -19,10 +19,6 @@ ou
 gunzip manuf.gz
 ```
 
-## Script shell
-```bash
-```
-
 ## Configuration YAML (config.yaml)
 ```yaml
 actions:
@@ -37,15 +33,3 @@ actions:
     popupOnStart: execution-dialog-stdout-only
     timeout: 15                
 ```
-
-## Exemple du fichier Entities
-```json
-```
-```yaml
-```
-
-## Code CSS
-```css
-```
-
-## Autre informations
