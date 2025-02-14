@@ -1,4 +1,7 @@
 # Les fichiers d'entités au format JSON
+## Dépendances
+* jq
+* nmap
 ## Script de récupération de données et création du fichier JSON
 ```bash
 vim /etc/OliveTin/scripts/scan_pcs_services_json.bash
