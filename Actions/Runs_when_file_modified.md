@@ -4,14 +4,6 @@
 * Navigateur : Firefox 135.0 (64 bits)
 * OliveTin : 2024.12.11
 * Réseau : LAN
-  
-## Préparation nécessaire et dépendances
-```bash
-```
-
-## Script shell
-```bash
-```
 
 ## Configuration YAML (config.yaml)
 ```yaml
@@ -32,15 +24,3 @@ actions:
     execOnFileChangedInDir:
       - /home/daniel/Images/
 ```
-
-## Exemple du fichier Entities
-```json
-```
-```yaml
-```
-
-## Code CSS
-```css
-```
-
-## Autre informations
