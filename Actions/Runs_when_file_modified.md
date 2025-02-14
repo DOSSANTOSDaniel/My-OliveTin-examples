@@ -20,7 +20,6 @@ actions:
       - name: filesizebytes
         type: int
     hidden: true
-	  #execOnFileCreatedInDir
     execOnFileChangedInDir:
       - /home/daniel/Images/
 ```
