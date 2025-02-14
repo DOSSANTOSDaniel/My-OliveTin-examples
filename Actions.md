@@ -120,36 +120,3 @@ actions:
     icon: ping
     execOnCalendarFile: /etc/OliveTin/plannings/start-debiansrv-calendar.yaml
 ```
-
-##
-```yaml
-
-```
-
-##
-```yaml
-
-```
-## 
-```yaml
-
-```
-
-##
-```yaml
-
-```
-
-##
-```yaml
-
-```
-## 
-```yaml
-
-```
-
-##
-```yaml
-
-```
