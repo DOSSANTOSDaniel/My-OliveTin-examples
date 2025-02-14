@@ -1,4 +1,4 @@
-# json
+# Les fichiers d'entités au format JSON
 ## Script de récupération de données et création du fichier JSON
 ```bash
 vim /etc/OliveTin/scripts/scan_pcs_services_json.bash
@@ -86,7 +86,7 @@ while read -r device_info; do
   echo "$new_object" >> $json_file
 done <<< "$nmap_output"
 ```
-Résultat
+Exemple de résultat :
 ```bash
 cat /etc/OliveTin/entities/scanips.json
 ```
